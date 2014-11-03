@@ -12,4 +12,4 @@ ADD_SUBDIRECTORY(src)
 
 
 # Install Rules
-install(FILES "${CMAKE_CURRENT_SOURCE_DIR}/libgpujpeg/*" DESTINATION "include")
+install(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/libgpujpeg/" DESTINATION "include")
