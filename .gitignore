@@ -1,3 +1,4 @@
+/build
 gpujpeg
 .libs
 src/*.o
