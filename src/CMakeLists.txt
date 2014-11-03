@@ -4,5 +4,5 @@ file(GLOB GPUJPEG_HEADERS "*.h" "*.cuh")
 cuda_add_library(GPUJPEG SHARED ${GPUJPEG_SRCS} ${GPUJPEG_HEADERS})
 
 # Install Rules	
-install (TARGETS GPUJPEG DESTINATION "bin")
+install (TARGETS GPUJPEG DESTINATION "lib")
     

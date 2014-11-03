@@ -5,11 +5,9 @@ PROJECT(gpujpeg)
 find_package(CUDA REQUIRED)
 include_directories(${CUDA_INCLUDE_DIRS})
 
-#ADD_SUBDIRECTORY(libgpujpeg)
-#ADD_SUBDIRECTORY(libgpujpeg)
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}") #include libgpujpeg
 ADD_SUBDIRECTORY(src)
 
 
 # Install Rules
-install(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/libgpujpeg/" DESTINATION "include")
+install(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/libgpujpeg/" DESTINATION "libgpujpeg")
